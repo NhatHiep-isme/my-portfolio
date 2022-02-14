@@ -1,9 +1,9 @@
-import React, { useState, useContext } from "react";
-import "./intro.css";
+import React, { useContext } from "react";
+import { LanguageContext } from "../../context/LanguageContext";
 import avatar from "../../img/avt.jpg";
 import ukFlag from "../../img/united-kingdom.png";
 import vnFlag from "../../img/vietnam.png";
-import { LanguageContext } from "../../context/LanguageContext";
+import "./intro.css";
 
 const Intro = () => {
   const { toggleLanguage } = useContext(LanguageContext);

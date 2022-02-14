@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
-import "./about.css";
+import { FaCircle, FaCss3Alt, FaHtml5, FaReact } from "react-icons/fa";
 import { LanguageContext } from "../../context/LanguageContext";
 import personalImage from "../../img/personal.jpg";
-import { FaHtml5, FaCss3Alt, FaReact, FaCircle } from "react-icons/fa";
+import "./about.css";
 
 const About = () => {
   const context = useContext(LanguageContext);
@@ -14,7 +14,7 @@ const About = () => {
       <div className="about-content">
         <div className="personal">
           <div className="image">
-            <img src={personalImage} alt="personal image" />
+            <img src={personalImage} alt="personal" />
             <div className="icons">
               <FaHtml5 className="icon" style={{ color: "#DC4D25" }} />
               <FaCss3Alt className="icon" style={{ color: "#146EB0" }} />
