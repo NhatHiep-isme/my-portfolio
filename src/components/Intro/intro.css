@@ -1,0 +1,43 @@
+.intro-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #E9D5A1;
+}
+
+.intro-container .intro .img-avt{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50rem;
+}
+
+.intro-container .intro .name{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.intro-container .intro .pos{
+    font-size: 1.8rem;
+    font-weight: lighter;
+}
+
+.intro-container .intro .flags-container{
+    display: flex;
+    justify-content: center;
+}
+
+.intro-container .intro .flags-container .flag{
+    width: fit-content;
+    height: fit-content;
+    margin: 2rem 0.25rem 0rem 0.25rem;
+}
+
+.intro-container .intro .flags-container .flag:hover,
+.intro-container .intro .flags-container .flag:active{
+    cursor: pointer;
+}
+
+.intro-container .intro .flags-container .flag img{
+    width: 3rem;
+}

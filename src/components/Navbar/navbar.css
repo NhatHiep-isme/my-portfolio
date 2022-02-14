@@ -1,0 +1,19 @@
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E9D5A1;
+}
+
+.navbar-container a{
+    margin: 2rem 0.5rem 0rem 0.5rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 650;
+    color: #000;
+}
+
+.navbar-container a:hover{
+    transform: scale(1.05);
+}
